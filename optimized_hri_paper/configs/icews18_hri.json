@@ -1,0 +1,9 @@
+{
+  "dataset": "ICEWS18",
+  "data_root": "data",
+  "method": "HRI-inspired recurrence baseline",
+  "prediction_task": "object prediction (s,r,?,t)",
+  "history_protocol": "causal; validation starts from train history, test starts from train+valid history, and same-timestamp facts are not used for the current timestamp",
+  "topk": 100,
+  "gold_insertion": false
+}
