@@ -1,3 +1,0 @@
-setuptools
-pytorch_lightning==0.5.2
-test-tube==0.7.5
